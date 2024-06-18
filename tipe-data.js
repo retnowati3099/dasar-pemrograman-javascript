@@ -27,11 +27,22 @@ let fullName = firstName + lastName; // string contatenation
 console.log(fullName);
 console.log(`Your name is ${fullName}`); // string interpolation
 
+// boolean
+let isTrue = true;
+let isFalse = false;
+console.log(typeof isTrue); // output: boolean
+console.log(typeof isFalse); // output: boolean
+const a = 10;
+const b = 12
+let isGreater = a > b
+let isLess = a < b
+console.log(isGreater, isLess); // output: false, true
+
 /*
 - Tipe data adalah pengklasifikasian data berdasarkan jenisnya.
 - Fungsi typeof() digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
-- Tipe data undefined: terbentuk ketika sebuah variabel tidak memiliki nilai. Artinya ketika jika suatu variabel dideklarasikan tanpa diinisialisasi, maka variabel tersebut menjadi undefined.
-- Tipe data number: nilainya adalah angka. Jika angka berupa bilangan desimal, maka bisa menggunakan titik pada pecahan bilangannya.
+- Tipe data undefined terbentuk ketika sebuah variabel tidak memiliki nilai. Artinya ketika jika suatu variabel dideklarasikan tanpa diinisialisasi, maka variabel tersebut menjadi undefined.
+- Tipe data number nilainya adalah angka. Jika angka berupa bilangan desimal, maka bisa menggunakan titik pada pecahan bilangannya.
 - Untuk membedakan BigInt dan Number, tambahkan karakter n di akhir angka.
 - Meskipun bigint digunakan untuk menyimpan angka dengan nilai besar, namun bigint tetap bisa digunakan untuk nilai yang lebih kecil.
 - BigInt juga bisa digunakan untuk operasi aritmatika pada umumnya, yang membedakan adalah pada operasi pembagian hasilnya akan dibulatkan ke bawah dan tanpa mengandung nilai desimal.
@@ -42,4 +53,6 @@ console.log(`Your name is ${fullName}`); // string interpolation
 - String contatenation akan menggabungkan string apa adanya, sehingga jika ingin menggabungkan dua kata atau lebih perlu menambahkan spasi sendiri.
 - JavaScript mendukung string interpolation, sederhananya yaitu kita bisa memasukkan variabel ke dalam sebuah string template.
 - Untuk mendefinisikan string template perlu menggunakan backticks kemudian di dalam string letakkan variabel yang ingin dimasukkan ke dalam placeholder.
+- Boolean hanya memiliki dua nilai, yaitu true atau false dimana menjadi kunci utama dalam penentuan logika.
+- Untukmenetapkan nilai boolean pada variabel, gunakan keyword true atau false.
 */
