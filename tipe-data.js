@@ -33,15 +33,21 @@ let isFalse = false;
 console.log(typeof isTrue); // output: boolean
 console.log(typeof isFalse); // output: boolean
 const a = 10;
-const b = 12
-let isGreater = a > b
-let isLess = a < b
+const b = 12;
+let isGreater = a > b;
+let isLess = a < b;
 console.log(isGreater, isLess); // output: false, true
 
 // null
 let someLaterData = null;
 console.log(someLaterData);
 
+// symbol
+const id = Symbol("id");
+console.log(id, typeof id); // output: Symbol(id), symbol
+const id1 = Symbol("id");
+const id2 = Symbol("id");
+console.log(id1 == id2); // output: false
 
 /*
 - Tipe data adalah pengklasifikasian data berdasarkan jenisnya.
@@ -63,4 +69,9 @@ console.log(someLaterData);
 - Tipe data null, serupa dengan undefined, namun null perlu diinisialisasi pada variabel.
 - Nullbiasa digunakan sebagai nilai sementara pada variabel, tapi sebenarnya nilai tersebut tidak ada.
 - Untuk menetapkan null pada variabel, kita dapat menggunakan keyword null ketika variabel tersebut diinisialisasi.
+- Symbol adalah tipe data baru yang dikenalkan pada ES6.
+- Tipe data symbol digunakan untuk menunjukkan identifier yang unik.
+- Ketika membuat symbol, kita bisa memberikan deskripsi atau nama symbol.
+- Symbol disebut sebagai identifier yang unik karena meskipun kita membuat dua variabel symbol dengan nama atau deskripsi yang sama, kedua nilainya tetap dianggap berbeda.
+- Symbol umumnya digunakan sebagai nama properti dari objek.
 */
