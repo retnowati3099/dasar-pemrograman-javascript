@@ -38,6 +38,11 @@ let isGreater = a > b
 let isLess = a < b
 console.log(isGreater, isLess); // output: false, true
 
+// null
+let someLaterData = null;
+console.log(someLaterData);
+
+
 /*
 - Tipe data adalah pengklasifikasian data berdasarkan jenisnya.
 - Fungsi typeof() digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
@@ -54,5 +59,8 @@ console.log(isGreater, isLess); // output: false, true
 - JavaScript mendukung string interpolation, sederhananya yaitu kita bisa memasukkan variabel ke dalam sebuah string template.
 - Untuk mendefinisikan string template perlu menggunakan backticks kemudian di dalam string letakkan variabel yang ingin dimasukkan ke dalam placeholder.
 - Boolean hanya memiliki dua nilai, yaitu true atau false dimana menjadi kunci utama dalam penentuan logika.
-- Untukmenetapkan nilai boolean pada variabel, gunakan keyword true atau false.
+- Untuk menetapkan nilai boolean pada variabel, gunakan keyword true atau false.
+- Tipe data null, serupa dengan undefined, namun null perlu diinisialisasi pada variabel.
+- Nullbiasa digunakan sebagai nilai sementara pada variabel, tapi sebenarnya nilai tersebut tidak ada.
+- Untuk menetapkan null pada variabel, kita dapat menggunakan keyword null ketika variabel tersebut diinisialisasi.
 */
