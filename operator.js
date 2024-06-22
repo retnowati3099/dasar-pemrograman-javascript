@@ -26,6 +26,12 @@ num5 = 3;
 console.log(num4 != num5); // output: true
 console.log(num4 !== num5); // output: true
 
+
+// logical operator
+console.log(true && false); // && -> opearator and; output: false
+console.log(true || false); // || -> opeartor or;  aoutput: true
+console.log(!true); // ! -> opearator not; output: false
+
 /*
 - Operator dalam bahasa pemrograman adalah simbol yang memberi tahu interpreter untuk melakukan operasi seperti matematika, relasional, atau logika untuk memberikan hasil tertentu.
 - "sama" (==) dan "identik" (===). Jika inginmembandingkan hanya dari kesamanaan nilai, maka bisa menggunakan == tetapi jika ingin membandingkan dengan memerhatikan tipe datanya, maka menggunakan ===.
